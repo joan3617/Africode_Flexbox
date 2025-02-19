@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    border: 2px solid  black;
+    width: 90%;
+}
+.item{
+    padding: 70px;
+    margin: 10px;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    flex-grow: 1;
+    background-color: blue; 
+}
+/*short-hand for flex properties*/
+/* .item{
+background-color: blue;
+    flex: 1 1 200px;
+    padding: 10px;
+    margin: 10px;
+} */
+ /*simplified - basis as the items fills */
+
+
+
+
